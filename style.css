@@ -81,3 +81,17 @@ body {
   font-style: italic;
   color: var(--muted);
 }
+
+.source {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+
+.source a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.source a:hover {
+  text-decoration: underline;
+}
