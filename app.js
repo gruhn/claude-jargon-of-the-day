@@ -32,4 +32,12 @@ function render(date) {
   document.getElementById("count").textContent = `${index + 1} of ${PHRASES.length}`;
 }
 
-render(new Date());
+// GitHub Pages serves every file with Cache-Control: max-age=600, and the
+// headers can't be changed. So we load phrases.js with a cache-busting query
+// param to make sure freshly deployed phrases show up immediately instead of
+// being served from the browser cache for up to 10 minutes. Loaded via a
+// script tag (not fetch) so opening index.html over file:// still works.
+const script = document.createElement("script");
+script.src = "phrases.js?t=" + Date.now();
+script.onload = () => render(new Date());
+document.head.appendChild(script);
