@@ -26,4 +26,8 @@ const PHRASES = [
     definition:
       "Merging multiple separate things into a single combined one — e.g. collapsing several rapid updates into one, or combining overlapping results.",
   },
+  {
+    term: "load-bearing",
+    definition: "Describes a component that something else critically depends on — remove it or change it and the whole structure fails.",
+  }
 ];
