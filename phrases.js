@@ -29,5 +29,10 @@ const PHRASES = [
   {
     term: "load-bearing",
     definition: "Describes a component that something else critically depends on — remove it or change it and the whole structure fails.",
+  },
+  {
+    term: "proof cohort",
+    definition:
+      "A small representative subset selected to validate an approach before applying it broadly — if the approach holds for the cohort, it's trusted to generalize.",
   }
 ];
