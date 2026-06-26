@@ -39,5 +39,10 @@ const PHRASES = [
     term: "refresh cadence",
     definition:
       "How often something is updated or re-fetched on a regular schedule — the rhythm at which data, caches, or content get renewed.",
+  },
+  {
+    term: "clobber",
+    definition:
+      "To overwrite something, usually unintentionally — e.g. one write stomping on another's changes, or a new value wiping out an existing one.",
   }
 ];
