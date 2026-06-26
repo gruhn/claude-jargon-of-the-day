@@ -34,5 +34,10 @@ const PHRASES = [
     term: "proof cohort",
     definition:
       "A small representative subset selected to validate an approach before applying it broadly — if the approach holds for the cohort, it's trusted to generalize.",
+  },
+  {
+    term: "refresh cadence",
+    definition:
+      "How often something is updated or re-fetched on a regular schedule — the rhythm at which data, caches, or content get renewed.",
   }
 ];

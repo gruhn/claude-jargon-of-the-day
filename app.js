@@ -29,7 +29,6 @@ function render(date) {
     undefined,
     { weekday: "long", year: "numeric", month: "long", day: "numeric" }
   );
-  document.getElementById("count").textContent = `${index + 1} of ${PHRASES.length}`;
 }
 
 // GitHub Pages serves every file with Cache-Control: max-age=600, and the
